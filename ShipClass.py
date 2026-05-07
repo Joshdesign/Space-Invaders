@@ -9,7 +9,7 @@ class Ship:
         self.bullet_img = None
         self.bullet_cooldown_counter = 0
         self.bullets = []
-        self.cooldown = 80
+        self.cool_down = 80
 
     def draw(self, window):
         window.blit(self.ship_img, (self.x, self.y))

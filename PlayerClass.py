@@ -7,7 +7,7 @@ from BulletClass import Bullet
 
 
 # Definir otras constantes relacionadas con el juego
-PLAYER_IMAGE = pygame.image.load(os.path.join('img', 'player_image.png'))
+PLAYER_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join('img', 'player_image.png')), (60, 55))
 BULLET_IMAGE = pygame.image.load(os.path.join('img', 'bullet_image.png'))
 
 class Player(Ship):
@@ -22,6 +22,7 @@ class Player(Ship):
         self.mask = pygame.mask.from_surface(self.ship_img)
         self.creation_cooldown_counter = 0
         self.max_amount_bullets = 3
+        self.fired_bullets = []
 
     # Movement
     def move(self):

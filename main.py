@@ -16,7 +16,7 @@ TITLE = 'Space Invaders Hybridge'
 
 # Player:
     # Images
-PLAYER_IMAGE = pygame.image.load(os.path.join('img', 'player_image.png'))
+PLAYER_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join('img', 'player_image.png')), (60, 55))
 BULLET_IMAGE = pygame.image.load(os.path.join('img', 'bullet_image.png'))
     # SFX
 
