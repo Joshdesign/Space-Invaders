@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/base_library.zip</key>
 		<data>
-		W/1cWy0SDe01eJGuuC/x10przyo=
+		3uBD2sAfWQMOA7OW8q2uov47O3o=
 		</data>
 		<key>Resources/icon-windowed.icns</key>
 		<data>
@@ -39,6 +39,10 @@
 		<key>Resources/img/hybridge.gif</key>
 		<data>
 		TZXx0MHRb+6Ah3xw95d5lGDYknI=
+		</data>
+		<key>Resources/img/icono_app.icns</key>
+		<data>
+		MEobO8Z6r0HlRVNoOlA1z9W1PvI=
 		</data>
 		<key>Resources/img/menu_fondo.jpg</key>
 		<data>
@@ -1180,7 +1184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wORHP8OqTyZ6sohCamHW/FxXdLz8SUvTX1OGedLTFg=
+			Z43gzvTIr+20zY+1FAqkAAbSfaj9tGxQFxm7otNnXWs=
 			</data>
 		</dict>
 		<key>Resources/icon-windowed.icns</key>
@@ -1237,6 +1241,13 @@
 			<key>hash2</key>
 			<data>
 			2rpbH1xS2CitHJ1H1iaLSwB+9n+4AcypbvppMpxEq3Q=
+			</data>
+		</dict>
+		<key>Resources/img/icono_app.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LoomK1nEyfnI2Phxj5i74qV9ZqJEfahmKBGRN2Agj0c=
 			</data>
 		</dict>
 		<key>Resources/img/menu_fondo.jpg</key>
